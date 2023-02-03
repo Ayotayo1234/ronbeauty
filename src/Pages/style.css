@@ -1,0 +1,798 @@
+*,
+*:before,
+*:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+html {
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  font-size: 62.5%;
+}
+.button{
+    background: #d3ad69;
+    width: fit-content;
+    padding: 10px;
+    border: 2px solid #ffffff;
+}
+
+nav{
+    background-color: #552a23;
+    height: 12vh;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 9;
+    box-shadow: rgba(0, 0, 0, 0.401) 0px 15px 25px, rgba(0, 0, 0, 0.233) 0px 5px 10px;
+}
+.section1-text{
+    min-width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    text-align: center;
+}
+.section1, .section5 {
+    color: rgb(76, 75, 75);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5%;
+    background-image: url(https://ronbeautyamazement.com/wp-content/uploads/2022/10/bg1.jpg?id=21372) !important;
+    background-position: bottom;
+}
+.section1-text .h1{
+    font-size:500%;
+    font-weight: 100 !important;
+}
+.section1-text .p{
+   font-size: 300%;
+}
+.section1-pics{
+    width: 100%;
+    margin-top: 5%;
+}
+.pics{
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    overflow: hidden;
+}
+.img{
+    height: 35%;
+    background-position: center;
+    background-size: cover;
+}
+.description{
+    text-align: center;
+    background: white;
+    height: 65%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px;
+}
+.section1-pics{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    gap: 30px;
+}
+.desc-head{
+    font-size: 30px;
+}
+.desc-text{
+    font-size: 20px;
+}
+.num{
+    font-size: 20px;
+   width: 50px;
+   height: 50px;
+   display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(64, 20, 20);
+    border-radius: 50%;
+    color: white;
+}
+.desc-btn{
+    width: fit-content;
+    font-size: 20px;
+    background: #e08b67;
+    padding: 10px;
+    color: white;
+}
+.imgone{
+    background-image: url(https://www.ronbeautyamazement.com/wp-content/uploads/2022/10/Wig-Section.jpg);
+}
+.imgtwo{
+    background-image: url(https://www.ronbeautyamazement.com/wp-content/uploads/2022/10/Hair-Extension-Section.jpg);
+}
+.imgthree{
+    background-image: url(https://www.ronbeautyamazement.com/wp-content/uploads/2022/10/Skin-Care-Section.jpg);
+}
+.imgfour{
+    background-image: url(https://www.ronbeautyamazement.com/wp-content/uploads/2022/10/Hair-Care-Section.jpg);
+}
+.section2 {
+    color: rgb(76, 75, 75);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5%;
+    background: #e08b67;
+    background-position: bottom;
+}
+.hovers{
+    width: 100%;
+    height: 65%;
+    transition-duration: 1s;
+}
+.hover1pic{
+  background-image: url(https://www.ronbeautyamazement.com/wp-content/uploads/2022/12/High-Quality-Glueless-Loose-Wave-4x4-1-1000x1000.jpg);
+}
+.hover2pic{
+  background-image: url(https://www.ronbeautyamazement.com/wp-content/uploads/2022/12/Hc6ec02ae7bd843aa821bd770ddd53f88y.jpg_960x960.jpg);
+}
+.hover3pic{
+  
+  background-image: url(https://www.ronbeautyamazement.com/wp-content/uploads/2022/10/HTB17A9UMSzqK1RjSZFpq6ykSXXaW.jpg);
+}
+.hover4pic{
+  background-image: url(https://www.ronbeautyamazement.com/wp-content/uploads/2022/10/st5.jpg);
+}
+.hover1{
+    width: 100%;
+    height: 100%;
+    
+    transition-duration: 1s;
+    background-position: center;
+    background-size: cover;
+}
+.hoverslide{
+  right:50%;
+    height: 100%;
+    position: relative;
+    bottom: 100%;
+    transition-duration: 1s;
+}
+.hover2img1{
+  background: linear-gradient(rgba(218, 217, 217, 0.5),rgba(176, 176, 176, 0.5)),url(https://www.ronbeautyamazement.com/wp-content/uploads/2022/12/H673d1e0701cd43cdbd1a173a4ee36fc2a.jpg_960x960.jpg);
+}
+.hover2img2{
+  background: linear-gradient(rgba(218, 217, 217, 0.5),rgba(176, 176, 176, 0.5)), url(https://www.ronbeautyamazement.com/wp-content/uploads/2022/12/H1c9239c84bce4c92b4e72e10ebc3d5f5t.jpg_960x960.jpg);
+}
+.hover2img3{
+  background: linear-gradient(rgba(218, 217, 217, 0.5),rgba(176, 176, 176, 0.5)), url(https://www.ronbeautyamazement.com/wp-content/uploads/2022/10/HTB1QF8wXtzvK1RkSnfoq6zMwVXaw.jpg);
+}
+
+.hover2img4{
+  background: linear-gradient(rgba(218, 217, 217, 0.5),rgba(176, 176, 176, 0.5)),url(https://www.ronbeautyamazement.com/wp-content/uploads/2022/10/49-150x195-1.jpg);
+}
+
+
+
+.hover2{
+    right:0%;
+    height: 100%;
+    position: relative;
+    bottom: 100%;
+   
+    background-position: center;
+    background-size: cover;
+    transition-duration: 1s;
+}
+.price{
+  background: rgb(250, 250, 233);
+  height: 35%;
+  padding: 10px;
+}
+.price-first{
+  font-size: 19px;
+  border-bottom: 2px solid rgb(174, 174, 174);
+  padding: 10px;
+}
+.price-cart{
+  display: flex;
+  font-size: 19px;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 20px;
+  color: #e08b67;
+  font-weight: 600;
+}
+.cart{
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  background: rgb(93, 43, 43);
+}
+.section3{
+  height: 120vh;
+  background-image: url(https://www.ronbeautyamazement.com/wp-content/uploads/2022/10/bgN.jpg);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+}
+
+.circle{
+  width: 43vw;
+  height: 43vw;
+  background: white;
+  border-radius: 50%;
+  padding: 15px;
+}
+.circle-info{
+  width: 100%;
+  height: 100%;
+  border: 2px dashed rgb(54, 35, 35);
+  border-radius: 50%;
+  color:rgb(54, 35, 35);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  gap: 30px;
+}
+.circle-info-h1{
+  font-size: 45px;
+}
+.circle-info-small{
+  font-size: 30px;
+}
+.circle-info-p{
+  text-align: center;
+  font-size: 18px;
+  color: rgb(171, 171, 171);
+}
+.section4{
+  height: 120vh;
+  background-color: #552a23;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  padding: 50px 100px;
+
+}
+.section4-part1{
+  flex: 1;
+  /* border: 2px solid green; */
+  display: flex;
+  gap: 3%;
+  /* justify-content: space-between; */
+  flex-direction: column;
+  height: 90%;
+}
+.section4-part2{
+  flex: 1;
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.part2{
+  flex: 1;
+  display: flex;
+  gap: 30px;
+
+}
+.part2-1 , .part2-2, .part2-3, .part2-4{
+  flex: 1;
+  /* display: flex; */
+}
+
+.transform-cloce{
+  transform:  rotateY(180deg) ;
+}
+.transform-open{
+  transform:  rotateY(90deg) ;
+}
+.skew1{
+  background-image: url(/images/AboutusFront1.jpg);
+}
+.skew2{
+  background-image: url(/images/AboutusFront2.jpg);
+}
+.skew3{
+  background-image: url(/images/AboutusFront3.jpg);
+}
+.skew4{
+  background-image: url(/images/AboutusFront4.jpg);
+}
+.part2-1b{
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  bottom: 100%;
+  transition-duration: 1s;
+}
+.part2-1a{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  background: rgb(33, 33, 35);
+  bottom: 100%;
+  transition-duration: 1s;
+}
+
+.part2-1b, .part2-1a{
+  width: 100%;
+  height: 100%;
+}
+.span-1{
+  font-size: 35px;
+}
+.span-2{
+  font-size: 20px;
+  color: #ffae00;
+}
+.section5{
+  height: 140vh !important;
+  gap: 50px;
+  background-image: url(/images/img12a.jpg)!important;
+  background-position: center !important;
+}
+.section5-2{
+  width: 90%;
+  height: 100%;
+  display: flex;
+  gap: 30px;
+}
+.sec5-div{
+  flex: 1;
+  height: 100%;
+}
+.sec5-pt1{
+  width: 100%;
+  height: 40%;
+  background-size: cover;
+  background-position: center;
+}
+.sec5-pt2{
+  width: 100%;
+  height: 60%;display: flex;
+  justify-content: center;
+  background: white;
+}
+.sec5-pt2-div{
+  background: white;
+  width: 85%;
+  padding: 2em 2em 0 2em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  position: relative;
+  bottom: 70px;
+}
+.pt1{
+  background-image: url(/images/What-is-Balayege-750x500.jpg);
+}
+.pt2{
+  background-image: url(/images/FACIAL-SHAPES-750x500.jpg);
+}
+.pt3{
+  background-image: url(/images/Wig-installation-and-different-types-of-wigs-570x380.jpg);
+}
+.section-6{
+  height: 50vh;
+  background: #e08b67;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sec-6{
+ background:  #552a23;
+  height: 50%;
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 6em;
+  align-items: center;
+}
+input{
+  color: #B5B4B4;
+  border: none;
+}
+input:focus{
+  outline: none;
+}
+.section-7{
+  width: 100%;
+  height: 110vh;
+  display: flex;
+  padding-bottom: 6em;
+}
+
+.sec7-1{
+  padding-right: 3em;
+  padding-top:7em ;
+  padding-left:9em ;
+  width: 50%;
+background: rgb(243, 243, 243);
+}
+.sec7-2{
+  padding-left:4em ;
+  padding-top:7em ;
+  width: 50%;
+}
+.section-8{
+  gap: 50px;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(rgba(0, 0, 0, 0.832),rgba(0, 0, 0, 0.901)),url(/images/img12a.jpg);
+}
+.foot-logo{
+  height: 60px;
+  width: 200px;
+  background-color: white;
+  border-radius: 70px;
+}
+.icons{
+  display: flex;
+  width: 50%;
+  height: 80px;
+  /* align-items: center; */
+  justify-content: center;
+  gap: 20px;
+  border-bottom: 1px solid #B5B4B4;
+}
+.icons div{
+  height: 30px;
+  width: 30px;
+  background: white;
+  border-radius: 50%;
+}
+@media only screen and (max-width: 800px) {
+  html {
+    font-size: 57%;
+  }
+}
+
+body {
+  /* background-color: #180148; */
+  color: #fff;
+  /* padding: 8rem; */
+}
+@media only screen and (max-width: 1000px) {
+  body {
+    padding: 0;
+  }
+}
+
+.container {
+    margin-top: 12vh;
+  position: relative;
+  overflow: hidden;
+  /* border-radius: 5rem; */
+}
+@media only screen and (max-width: 1000px) {
+  .container {
+    border-radius: 0;
+  }
+}
+
+.slider {
+  display: flex;
+  width: 500vw;
+  height: 90vh;
+  transition: all 0.25s ease-in;
+  transform: translateX(0);
+}
+@media only screen and (max-width: 1000px) {
+  .slider {
+    height: 100vh;
+  }
+}
+.slider .box {
+  height: 100%;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  overflow: hidden;
+  position: relative;
+}
+@media only screen and (max-width: 650px) {
+  .slider .box {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2, 1fr);
+  }
+}
+.slider .box .bg {
+  padding: 2rem;
+  background-color: rgba(0, 0, 0, 0.2);
+  width: 55%;
+  transform: skewX(7deg);
+  position: absolute;
+  height: 100%;
+  left: -10%;
+  padding-left: 20rem;
+  transform-origin: 0 100%;
+}
+@media only screen and (max-width: 800px) {
+  .slider .box .bg {
+    width: 65%;
+  }
+}
+@media only screen and (max-width: 650px) {
+  .slider .box .bg {
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    height: 54%;
+    transform: skewX(0deg);
+  }
+}
+.slider .box .bg::before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-color: inherit;
+  pointer-events: none;
+  transform: skewX(10deg);
+}
+@media only screen and (max-width: 650px) {
+  .slider .box .bg::before {
+    width: 120%;
+    bottom: 0;
+    transform: skewX(0deg);
+  }
+}
+.slider .box .details {
+  padding: 5rem;
+  padding-left: 10rem;
+  z-index: 100;
+  grid-column: 1/span 1;
+  grid-row: 1/-1;
+}
+@media only screen and (max-width: 650px) {
+  .slider .box .details {
+    grid-row: 2/span 1;
+    grid-column: 1/-1;
+    text-align: center;
+    padding: 2rem;
+    transform: translateY(-9rem);
+  }
+}
+.slider .box .details h1 {
+  font-size: 3.5rem;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+}
+.slider .box .details p {
+  display: inline-block;
+  font-size: 1.3rem;
+  color: #B5B4B4;
+  margin-bottom: 2rem;
+  margin-right: 5rem;
+}
+
+@media only screen and (max-width: 800px) {
+  .slider .box .details p {
+    margin-right: 0;
+  }
+}
+.slider .box .details button {
+  padding: 1rem 3rem;
+  color: #fff;
+  border-radius: 2rem;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.slider .box .details button:hover {
+  opacity: 0.8;
+}
+.slider .box .details button:focus {
+  outline: none;
+  border: none;
+}
+.illustration{
+    /* border: 2px solid red; */
+    background-image: url(./images/307428.jpg);
+    background-size: cover;
+    height: 80%;
+    width: 60%;
+}
+.slider .box1 {
+  background-color: #552a23;
+}
+/* .slider .box1 .illustration .inner { */
+  /* background-color: #FF0077; */
+  /* border: 2px solid red;
+} */
+/* .slider .box1 .illustration .inner::after, .slider .box1 .illustration .inner::before {
+  background-color: rgba(255, 0, 119, 0.4);
+} */
+.slider .box1 button {
+  background-color: #FF0077;
+}
+.slider .box2 {
+  background-color: #e08b67;
+}
+.slider .box2 .illustration .inner {
+  background-color: #00ff1a;
+}
+.slider .box2 .illustration .inner::after, .slider .box2 .illustration .inner::before {
+  background-color: rgba(0, 51, 255, 0.4);
+}
+.slider .box2 button {
+  background-color: #0033FF;
+}
+.slider .box3 {
+  background-color: #cf2e2e;
+}
+.slider .box3 .illustration .inner {
+  background-color: #00FF44;
+}
+.slider .box3 .illustration .inner::after, .slider .box3 .illustration .inner::before {
+  background-color: rgba(0, 255, 68, 0.4);
+}
+.slider .box3 button {
+  background-color: #00FF44;
+}
+.slider .box4 {
+  background-color: #ff6900;
+}
+.slider .box4 .illustration .inner {
+  background-color: #FF4E00;
+}
+.slider .box4 .illustration .inner::after, .slider .box4 .illustration .inner::before {
+  background-color: rgba(255, 78, 0, 0.4);
+}
+.slider .box4 button {
+  background-color: #FF4E00;
+}
+.slider .box5 {
+  background-color: #300050;
+}
+.slider .box5 .illustration .inner {
+  background-color: #8000FF;
+}
+.slider .box5 .illustration .inner::after, .slider .box5 .illustration .inner::before {
+  background-color: rgb(255, 246, 176);
+}
+.slider .box5 button {
+  background-color: #8000FF;
+}
+.slider .illustration {
+  grid-column: 2/-1;
+  grid-row: 1/-1;
+  justify-self: center;
+}
+@media only screen and (max-width: 650px) {
+  .slider .illustration {
+    grid-row: 1/span 1;
+    grid-column: 1/-1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+.slider .illustration div {
+  height: 25rem;
+  width: 18rem;
+  border-radius: 3rem;
+  background-color: #FF0077;
+  position: relative;
+  transform: skewX(-10deg);
+}
+@media only screen and (max-width: 800px) {
+  .slider .illustration div {
+    height: 20rem;
+    width: 15rem;
+  }
+}
+.slider .illustration div::after, .slider .illustration div::before {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  border-radius: 3rem;
+  top: 0;
+  left: 0;
+}
+.slider .illustration div::after {
+  transform: translate(4rem, -1rem);
+}
+.slider .illustration div::before {
+  transform: translate(2rem, -2rem);
+}
+
+.prev,
+.next,
+.trail {
+  z-index: 10000;
+  position: absolute;
+}
+
+.prev,
+.next {
+  width: 4rem;
+  cursor: pointer;
+  opacity: 0.2;
+  transition: all 0.3s ease;
+}
+@media only screen and (max-width: 650px) {
+  .prev,
+.next {
+    display: none;
+  }
+}
+.prev:hover,
+.next:hover {
+  opacity: 1;
+}
+
+.prev {
+  top: 50%;
+  left: 2%;
+  transform: translateY(-50%);
+}
+
+.next {
+  top: 50%;
+  right: 2%;
+  transform: translateY(-50%);
+}
+
+.trail {
+  bottom: 5%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 60%;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 1rem;
+  text-align: center;
+  font-size: 1.5rem;
+}
+@media only screen and (max-width: 650px) {
+  .trail {
+    width: 90%;
+    bottom: 13%;
+  }
+}
+.trail div {
+  padding: 2rem;
+  border-top: 3px solid #fff;
+  cursor: pointer;
+  opacity: 0.3;
+  transition: all 0.3s ease;
+}
+.trail div:hover {
+  opacity: 0.6;
+}
+@media only screen and (max-width: 650px) {
+  .trail div {
+    padding: 1rem;
+  }
+}
+
+.active {
+  opacity: 1 !important;
+}
