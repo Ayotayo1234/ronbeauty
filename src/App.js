@@ -53,7 +53,7 @@ function App() {
       </nav>
       <Slider />
         <div className="section1">
-            <div className="section1-text">
+            <div className="section1-text" style={{color:"#ffffff"}}>
                 <div className="h1">Featured Collections</div>
                 <div className="p">Our Solutions tailor made for with each<br />individual to understand specific needs</div>
             </div>
